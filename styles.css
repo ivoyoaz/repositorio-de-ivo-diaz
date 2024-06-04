@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color:beige;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    text-decoration:underline;
+    text-decoration-color:burlywood;
+}
+
+.flex-container h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: default;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.producto {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+    background-color:white;
+    border-radius: 6px;
+    max-width: 400px;
+}
+
+.producto:hover {
+    transform: scale(1.025);
+    transition: transform 0.3s ease;
+}
+
+.destacados {
+    margin-bottom: 20px;
+    color:black;
+    padding: 8px 16px;
+    margin: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: default;
+    text-decoration: none;
+    
+}
+
+.destacados h2 {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.destacados p {
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.destacados p1 {
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.destacados p:hover {
+    transform: scale(1.010);
+    transition: transform 1.0s ease;
+}
+
+.productos {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+.seleccionar-btn {
+    background-color:burlywood;
+    color:#EAEAEA;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
+}
+
+.seleccionar-btn:hover {
+   background-color:darkkhaki;
+}
+
+.seleccionar-btnn {
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flex-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}    
+
+
+.titulo{
+    background-color: beige;
+    color:#333;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 50px;
+    cursor:default;
+    
+}
+
+.link {
+    color: #EAEAEA;
+    text-decoration: none;
+}
+
+.link :hover {
+    background-color: darkkhaki;
+    transition: background-color 0.3 ease;
+}
+
+.cart-icon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .cart-icon i {
+    font-size: 1.5rem;
+    color: burlywood;
+    cursor: pointer;
+  }
+
